@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto", serif;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header > p, a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .call{
+    background-color: #3882F6;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote > blockquote{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
