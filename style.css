@@ -2,7 +2,7 @@
     font-family: "Roboto", serif;
 }
 
-.hero, .footer {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 
@@ -15,18 +15,30 @@ h1 {
 .header > p, a{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
-.hero > p{
+.hero-left > p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-button, .call{
+button, .call-proper{
     background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+}
+
+button{
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
 }
 
 h2{
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     color: #1F2937;
 }
@@ -37,6 +49,93 @@ h2{
 
 .quote > blockquote{
     font-size: 36px;
+    font-weight: lighter;
     font-style:italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px 0 200px;
+}
+
+.citation{
+    display: flex;
+    justify-content: right;
+    padding: 0 200px 100px 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px 0 300px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+ul{
+    display: flex;  
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+}
+
+.info-item{ /* styles for the info items as list items, separated to not affect the navbar items */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 200px 50px 200px;
+}
+
+img{
+    height: 100px;
+}
+
+.hero-image{
+    height: 300px;
+    padding: 0;
+}
+
+.call-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-proper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px 0 30px 0;
 }
